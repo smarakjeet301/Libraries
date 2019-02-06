@@ -1,9 +1,7 @@
 package themestyler.com.themestyler;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-
-import themestyler.com.customtoast.CustomToast;
+import android.support.v7.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -12,8 +10,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        CustomToast.s(this,"Hello Bro"+R.drawable.ic_launcher_background
-        );
+//        CustomToast.s(this,"Hello Bro"+R.drawable.ic_launcher_background
+//        );
+
+
 
     }
 }
